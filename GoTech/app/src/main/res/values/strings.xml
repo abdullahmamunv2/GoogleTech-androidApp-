@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GoTech</string>
+    <string name="google_map_snipper_text">Select Map type</string>
+    <string-array name="google_map_type_arrays">
+        <item>NONE</item>
+        <item>NORMAL</item>
+        <item>SATELLITE</item>
+        <item>TERRAIN</item>
+        <item>HYBRID</item>
+    </string-array>
+</resources>

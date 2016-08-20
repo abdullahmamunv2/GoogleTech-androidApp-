@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/google">
+
+    <TextView
+        android:id="@+id/list_item_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:text="Google Map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGoogleMap"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+    </Button>
+
+    <Button
+        android:text="Google place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGooglePlace"
+        android:layout_below="@+id/btnGoogleMap"
+        android:layout_centerHorizontal="true">
+
+    </Button>
+
+    <Button
+        android:text="GPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGps"
+        android:layout_below="@+id/btnGooglePlace"
+        android:layout_centerHorizontal="true">
+
+    </Button>
+
+</RelativeLayout>
